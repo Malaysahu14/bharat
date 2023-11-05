@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Homepage</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        #header {
+            background-color: #000;
+            padding: 10px;
+        }
+        #header img {
+            width: 120px;
+        }
+        #nav {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+        }
+        #nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        #nav a:hover {
+            text-decoration: underline;
+        }
+        #banner {
+            background: url('netflix-banner.jpg') no-repeat center center;
+            background-size: cover;
+            height: 500px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #banner h1 {
+            font-size: 36px;
+        }
+        #banner p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        #featured {
+            padding: 40px;
+            text-align: center;
+        }
+        #featured h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .movie {
+            display: inline-block;
+            margin: 10px;
+        }
+        .movie img {
+            width: 200px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="netfix.png" alt="Netflix Logo">
+    </div>
+    <div id="nav">
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">New & Popular</a>
+        <a href="#">My List</a>
+    </div>
+    <div id="banner">
+        <h1>Welcome to Netflix</h1>
+        <p>Unlimited movies, TV shows, and more.</p>
+    </div>
+    <div id="featured">
+        <h2>Featured Movies</h2>
+        <div class="movie">
+            <img src="joker.png" alt="Movie 1">
+        </div>
+        <div class="movie">
+            <img src="batman.png" alt="Movie 2">
+        </div>
+        <div class="movie">
+            <img src="avenger.png" alt="Movie 3">
+        </div>
+    </div>
+</body>
+</html>
